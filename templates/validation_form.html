@@ -1,0 +1,25 @@
+{% extends 'base.html' %}
+{% load rest_framework %}
+{% load i18n %}
+
+
+{% block content %}
+	<h1>{% trans 'License plate validator' %}</h1>
+	{% if license_plate %}
+		<div class="alert alert-{% if is_valid %}success{% else %}danger{% endif %}" role="alert">
+			{{ license_plate }}
+			{% if is_valid %}
+				{% trans 'is valid.' %}
+			{% else %}
+				{% trans 'is invalid.' %}
+			{% endif %}
+		</div>
+	{% endif %}
+	<form action="." method="POST">
+		{% csrf_token %}
+		{% render_form serializer %}
+		<div class="d-grid gap-2">
+			<input type="submit" value="{% trans 'Validate' %}" class="btn btn-primary my-3">
+		</div>
+	</form>
+{% endblock %}

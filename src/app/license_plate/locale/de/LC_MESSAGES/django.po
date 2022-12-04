@@ -1,0 +1,35 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-12-03 12:03+0100\n"
+"PO-Revision-Date: 2022-12-03 12:04+0100\n"
+"Last-Translator: Benjamin Banduhn <banduhn@garnomedia.net>\n"
+"Language-Team: \n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.1.1\n"
+
+#: src/app/license_plate/apps.py:7
+msgid "License plate validator"
+msgstr "Autokennzeichen Prüfer"
+
+#: src/app/license_plate/validators.py:30
+msgid "Invalid number of characters. Maximum {} characters are allowed."
+msgstr "Ungültige Anzahl der Zeichen. Es sind maximal {} Zeichen erlaubt."
+
+#: src/app/license_plate/validators.py:38
+msgid "Invalid format. Please enter one of the following: 'B-ER 1234' or 'B-ER1234'"
+msgstr "Ungültiges Format: Bitte geben Sie eines der folgenden Formate ein: ‘B-ER 1234’ or ‘B-ER1234’"
+
+#: src/app/license_plate/validators.py:47
+msgid "{} is not a valid german city or district."
+msgstr "{} ist keine gültige/r deutsche Stadt oder Bezirk."

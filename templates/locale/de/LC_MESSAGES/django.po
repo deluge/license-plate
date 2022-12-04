@@ -1,0 +1,39 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-12-03 03:40+0100\n"
+"PO-Revision-Date: 2022-12-03 03:45+0100\n"
+"Last-Translator: Benjamin Banduhn <banduhn@garnomedia.net>\n"
+"Language-Team: \n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.1.1\n"
+
+#: templates/base.html:7
+msgid "License plate"
+msgstr "Autokennzeichen"
+
+#: templates/validation_form.html:7
+msgid "License plate validator"
+msgstr "Autokennzeichen Prüfer"
+
+#: templates/validation_form.html:12
+msgid "is valid."
+msgstr "ist gültig."
+
+#: templates/validation_form.html:14
+msgid "is invalid."
+msgstr "ist ungültig."
+
+#: templates/validation_form.html:22
+msgid "Validate"
+msgstr "Prüfen"

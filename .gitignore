@@ -1,0 +1,21 @@
+# Editors
+.DS_Store
+.project
+.vscode
+.env
+.envrc
+
+# Python / Django
+pip-log.txt
+*.py[co]
+*.egg-info
+__pycache__
+.cache
+.pytest_cache
+*.so
+.coverage
+coverage.xml
+*.mo
+src/app/settings.py
+/web
+/htmlcov

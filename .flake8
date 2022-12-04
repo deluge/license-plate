@@ -1,0 +1,10 @@
+[flake8]
+ignore =
+    E127
+    E203
+    E231
+    E501
+    W503
+
+per-file-ignores =
+    *settings.py: F401,F403,F405
